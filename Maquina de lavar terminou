@@ -1,0 +1,32 @@
+- id: '1709851743331'
+  alias: Maquina lavar louça terminou
+  description: ''
+  use_blueprint:
+    path: sbyx/notify-or-do-something-when-an-appliance-like-a-dishwasher-or-washing-machine-finishes.yaml
+    input:
+      power_sensor: sensor.medidor_maquina_louca_power
+      actions:
+      - action: notify.mobile_app_pocox6pro
+        metadata: {}
+        data:
+          message: TTS
+          data:
+            ttl: 0
+            priority: high
+            media_stream: alarm_stream_max
+            tts_text: A maquina de lavar louça terminou
+      - action: notify.mobile_app_xiaomi10
+        metadata: {}
+        data:
+          message: TTS
+          data:
+            ttl: 0
+            priority: high
+            media_stream: alarm_stream_max
+            tts_text: A maquina de lavar louça terminou
+        enabled: false
+      pre_actions: []
+      finishing_threshold: 8
+      starting_threshold: 20
+      starting_hysteresis: 5
+      finishing_hysteresis: 10
