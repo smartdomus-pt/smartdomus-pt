@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @smartdomus.org
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👋 Hi, I’m Toze from @smartdomus.org
+- 👀 I’m interested in Home Assistant
+- 🌱 I’m currently learning YAML
+- 💞️ I’m looking to collaborate on Home Assistant
+- 📫 How to reach me by email
 
 <!---
 smartdomus-pt/smartdomus-pt is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
